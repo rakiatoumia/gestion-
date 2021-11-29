@@ -1,0 +1,44 @@
+const mongoose = require("mongoose");
+const ProduitSchema=  new mongoose.Schema(
+    {
+     reference:{
+        type:String, 
+    },
+    designation:{
+        type:String, 
+    },
+    description:{
+        type:String, 
+    },
+     PrixHT:{
+        type:Number,
+    }, 
+    TVA:{
+        type:Number,
+    },
+    Unite:{
+        type:Number,
+    },
+    PrixAchat:{
+        type:Number,
+    },
+    PrixVente:{
+        type:Number,
+    },
+    QuantiteStock:{
+        type:Number,
+    },
+    StockMin:{
+        type:Number,
+    },
+    QuantiteEntree:{
+        type:Number,
+    },
+    QuantiteSortie:{
+        type:Number,
+    },
+    QuantiteInitiale:{
+        type:Number,
+    },
+})  
+ module.exports= mongoose.model("Produits",ProduitSchema)

@@ -1,0 +1,25 @@
+.form_container{
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+    background-color: rgba(0,0,0,0.5);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    }
+ .form_inner{
+        background-color: #fff;
+        width:40%;
+        height:90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    
+    }
+    .control_form{
+
+        display: inline-flex;
+        justify-content: space-between;
+    }

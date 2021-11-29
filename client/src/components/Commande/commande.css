@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap');
+
+main{
+    background:#f3f4f6;
+    grid-area:main;
+    overflow-y:auto;
+}
+.main__container{
+    padding:20px 35px;
+}
+select {
+
+    /* styling */
+    background-color: white;
+    border: thin solid #5885;
+    border-radius: 4px;
+    display: inline-block;
+    font: inherit;
+    line-height: 1em;
+    padding: 0.5em 3.5em 0.5em 1em;
+    width:70%;
+    /* reset */
+    margin: 0;      
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+  .select_classic
+  {
+    background-image:
+      linear-gradient(45deg, transparent 50%, #5885AF 50%),
+      linear-gradient(135deg,#5885AF 50%, transparent 50%),
+      linear-gradient(to right, skyblue, skyblue);
+    background-position:
+      calc(100% - 20px) calc(1em + 2px),
+      calc(100% - 15px) calc(1em + 2px),
+      100% 0;
+    background-size:
+      5px 5px,
+      5px 5px,
+      2.5em 2.5em;
+    background-repeat: no-repeat;
+  }
+  
+  .select_classic:focus {
+    background-image:
+      linear-gradient(45deg, white 50%, transparent 50%),
+      linear-gradient(135deg, transparent 50%, white 50%),
+      linear-gradient(to right, gray, gray);
+    background-position:
+      calc(100% - 15px) 1em,
+      calc(100% - 20px) 1em,
+      100% 0;
+    background-size:
+      5px 5px,
+      5px 5px,
+      2.5em 2.5em;
+    background-repeat: no-repeat;
+    border-color: grey;
+    outline: 0;
+  }
+
+  .basic__info{
+      display: flex;
+      flex-direction: row;
+      width:100%;
+      border-bottom-left-radius:10px;
+      border-bottom-right-radius: 10px;
+  }
+  .Title{
+      padding:10px;
+  }
+  .Sub_Title{
+   width:100%;
+   background-color: #5885AF;
+   padding:8px 5px;
+   color: cornsilk;
+   margin-top:15px;
+  }
+  .Instructions{
+width:40%;
+padding:20px;
+background-color: #D4F1F4;
+border-radius: 8px;
+height: fit-content;
+margin:20px;
+  }
+  .instruction_item li {
+      list-style: square;
+      font-family: 'Cormorant Garamond', serif;
+      padding: 0 5px;
+    }
+  .Commande__info{
+      width:60%;
+  }
+  .basic__info{
+      background-color: white;
+      width:100%;
+      height: 200px;
+  }
+  .Commande__info{
+      width:60%;
+      padding: 15px;
+  }
+  .boncommande[type=text]{
+    width:70%;
+    border:2px solid #aaa;
+    border-radius:4px;
+    margin:8px 0;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+  }
+  
+  .boncommande[type=text]:focus{
+    border-color:dodgerBlue;
+    box-shadow:0 0 8px 0 dodgerBlue;
+  }
+  .Achat{
+      background-color: white;
+      width:100%;
+      padding:15px;
+      border-bottom-left-radius:10px;
+      border-bottom-right-radius: 10px;
+  }
+  .Panier{
+      background-color: white;
+      border-bottom-left-radius:10px;
+      border-bottom-right-radius: 10px;
+  }
+  .divTable{
+    display: table;
+    width: 100%;
+  }
+  .divTableRow {
+    display: table-row;
+  }
+  .divTableHeading {
+    background-color: #EEE;
+    display: table-header-group;
+  }
+  .divTableCell, .divTableHead {
+    border: 1px solid #999999;
+    display: table-cell;
+    padding: 3px 10px;
+  }
+  .divTableHeading {
+    background-color: #EEE;
+    display: table-header-group;
+    font-weight: bold;
+  }
+  .divTableFoot {
+    background-color: #EEE;
+    display: table-footer-group;
+    font-weight: bold;
+  }
+  .divTableBody {
+    display: table-row-group;
+  }

@@ -1,0 +1,97 @@
+
+main{ 
+  background:#f3f4f6;
+  grid-area:main;
+  overflow-y:auto;
+}
+.main__container{
+  padding:20px 35px;
+  width:100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main__title{
+  display:flex;
+  align-items: center;
+}
+.main__container > img{
+  width:90%;
+  object-fit:contain;
+  margin-right:20px;
+}
+.facture__entete
+{
+  margin-top: 140px;
+  width:100%;
+  display: flex;
+  flex-direction: row;
+}
+.Commande__info{
+width: 40%;
+margin-left: 80px;
+}
+.Client__info{
+  width:60%;
+  margin-right:30px;
+}
+.Num__facture{
+
+  padding:5px;
+  border-style: solid;
+  border-radius: 5px;
+  width:90%;
+  border-width: 2px 2px 2px 2px;
+
+}
+.Client{
+  border-width: 2px 2px 2px 2px;
+  border-style: solid;
+  border-radius: 5px;
+  width:60%;
+  padding:5px;
+}
+.fiche_client{
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  width:80%;
+  border-radius: 15px;
+  height: 180px;
+}
+.divTable{
+	display: table;
+	width: 100%;
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+}
+.divTableCell, .divTableHead {
+	border: 1px solid #999999;
+	display: table-cell;
+	padding: 3px 10px;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}
+
+.divTable{
+width:90%;
+margin: 30px auto;
+}
+/* DivTable.com */
+.Prix{
+  width:50%;
+}
